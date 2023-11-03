@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "WION",
+            "title": "Israel-Hamas war LIVE: Blinken arrives in Israel, seeks 'concrete steps' to reduce civilian casualties - WION",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigwFodHRwczovL3d3dy53aW9uZXdzLmNvbS93b3JsZC9pc3JhZWwtaGFtYXMtd2FyLWxpdmUtdW4tZXhwZXJ0cy1jYWxsLWZvci1jZWFzZWZpcmUtc2F5LXBhbGVzdGluaWFucy1hdC1ncmF2ZS1yaXNrLW9mLWdlbm9jaWRlLTY1NDQ5MtIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T07:30:47Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "GameSpot",
+            "title": "Everything New In Fortnite OG - Chapter 4 Season 5 Update Revealed - GameSpot",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LmdhbWVzcG90LmNvbS9nYWxsZXJ5L2V2ZXJ5dGhpbmctbmV3LWluLWZvcnRuaXRlLW9nLWNoYXB0ZXItNC1zZWFzb24tNS11cGRhdGUtcmV2ZWFsZWQvMjkwMC00OTMwL9IBcGh0dHBzOi8vd3d3LmdhbWVzcG90LmNvbS9hbXAtZ2FsbGVyeS9ldmVyeXRoaW5nLW5ldy1pbi1mb3J0bml0ZS1vZy1jaGFwdGVyLTQtc2Vhc29uLTUtdXBkYXRlLXJldmVhbGVkLzI5MDAtNDkzMC8?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T07:10:16Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "The Athletic",
+            "title": "Raiders embrace new energy with Antonio Pierce, ‘not walking on eggshells’ after McDaniels firing - The Athletic",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiWWh0dHBzOi8vdGhlYXRobGV0aWMuY29tLzUwMjY0MjAvMjAyMy8xMS8wMi9yYWlkZXJzLWFudG9uaW8tcGllcmNlLWNvYWNoLWVuZXJneS1tY2RhbmllbHMv0gFfaHR0cHM6Ly90aGVhdGhsZXRpYy5jb20vNTAyNjQyMC8yMDIzLzExLzAyL3JhaWRlcnMtYW50b25pby1waWVyY2UtY29hY2gtZW5lcmd5LW1jZGFuaWVscy8_YW1wPTE?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T06:56:41Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Reuters",
+            "title": "US House passes Republicans' Israel-only aid bill, faces dead end in Senate - Reuters",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibmh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3dvcmxkL3VzL3VzLWhvdXNlLXBhc3Nlcy1yZXB1YmxpY2Fucy1pc3JhZWwtYWlkLWJpbGwtZmFjZXMtZGVhZC1lbmQtc2VuYXRlLTIwMjMtMTEtMDIv0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T05:53:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Reuters",
+            "title": "Apple holiday forecast disappoints on iPad, wearables demand; shares slip - Reuters",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiY2h0dHBzOi8vd3d3LnJldXRlcnMuY29tL3RlY2hub2xvZ3kvYXBwbGUtYmVhdHMtcXVhcnRlcmx5LWVzdGltYXRlcy1pcGhvbmUtc2FsZXMtZWRnZS11cC0yMDIzLTExLTAyL9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T05:52:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Al Jazeera English",
+            "title": "New US sanctions over Russia-Ukraine war target Lancet drones - Al Jazeera English",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vbmV3cy8yMDIzLzExLzMvbmV3LXVzLXNhbmN0aW9ucy1vdmVyLXJ1c3NpYS11a3JhaW5lLXdhci10YXJnZXQtbGFuY2V0LWRyb25lc9IBamh0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vYW1wL25ld3MvMjAyMy8xMS8zL25ldy11cy1zYW5jdGlvbnMtb3Zlci1ydXNzaWEtdWtyYWluZS13YXItdGFyZ2V0LWxhbmNldC1kcm9uZXM?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T04:46:19Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CNN",
+            "title": "November 2, 2023 Israel-Hamas war news - CNN",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiV2h0dHBzOi8vd3d3LmNubi5jb20vbWlkZGxlZWFzdC9saXZlLW5ld3MvaXNyYWVsLWhhbWFzLXdhci1nYXphLW5ld3MtMTEtMDItMjMvaW5kZXguaHRtbNIBW2h0dHBzOi8vYW1wLmNubi5jb20vY25uL21pZGRsZWVhc3QvbGl2ZS1uZXdzL2lzcmFlbC1oYW1hcy13YXItZ2F6YS1uZXdzLTExLTAyLTIzL2luZGV4Lmh0bWw?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T04:15:55Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CBS Sports",
+            "title": "Prisco's Week 9 NFL picks: Chiefs drop Dolphins in Germany thriller, Cowboys edge Eagles in NFC East clash - CBS Sports",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiiwFodHRwczovL3d3dy5jYnNzcG9ydHMuY29tL25mbC9uZXdzL3ByaXNjb3Mtd2Vlay05LW5mbC1waWNrcy1jaGllZnMtZHJvcC1kb2xwaGlucy1pbi1nZXJtYW55LXRocmlsbGVyLWNvd2JveXMtZWRnZS1lYWdsZXMtaW4tbmZjLWVhc3QtY2xhc2gv0gGPAWh0dHBzOi8vd3d3LmNic3Nwb3J0cy5jb20vbmZsL25ld3MvcHJpc2Nvcy13ZWVrLTktbmZsLXBpY2tzLWNoaWVmcy1kcm9wLWRvbHBoaW5zLWluLWdlcm1hbnktdGhyaWxsZXItY293Ym95cy1lZGdlLWVhZ2xlcy1pbi1uZmMtZWFzdC1jbGFzaC9hbXAv?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T03:42:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "BBC.com",
+            "title": "'Crypto King' Sam Bankman-Fried guilty of FTX fraud - BBC.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiKmh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy9idXNpbmVzcy02NzI4MTc1OdIBLmh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy9idXNpbmVzcy02NzI4MTc1OS5hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T03:40:19Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "NFL",
+            "title": "Tennessee Titans vs. Pittsburgh Steelers | 2023 Week 9 Game Highlights - NFL",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CCAiCzB0ZmI4Z0phVHV3mAEB?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T03:39:09Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "NBC News",
+            "title": "Nightly News Full Broadcast - Nov. 2 - NBC News",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CCAiC0hHMVlfdnlmY1ZrmAEB?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T03:38:48Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CNBC",
+            "title": "Elon Musk says AI will eventually create a situation where 'no job is needed' - CNBC",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibmh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjMvMTEvMDIvdGVzbGEtYm9zcy1lbG9uLW11c2stc2F5cy1haS13aWxsLWNyZWF0ZS1zaXR1YXRpb24td2hlcmUtbm8tam9iLWlzLW5lZWRlZC5odG1s0gFyaHR0cHM6Ly93d3cuY25iYy5jb20vYW1wLzIwMjMvMTEvMDIvdGVzbGEtYm9zcy1lbG9uLW11c2stc2F5cy1haS13aWxsLWNyZWF0ZS1zaXR1YXRpb24td2hlcmUtbm8tam9iLWlzLW5lZWRlZC5odG1s?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T03:17:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Bleacher Report",
+            "title": "Tyrese Maxey Reacts to James Harden Trade | NBA GameTime - Bleacher Report",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CCAiC2Y3T3N1RmtGdXI0mAEB?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T03:02:36Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "SciTechDaily",
+            "title": "Double Surprise: NASA's Lucy Spacecraft Makes “Marvelous” Discovery During Asteroid Dinkinesh Flyby - SciTechDaily",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vc2NpdGVjaGRhaWx5LmNvbS9kb3VibGUtc3VycHJpc2UtbmFzYXMtbHVjeS1zcGFjZWNyYWZ0LW1ha2VzLW1hcnZlbG91cy1kaXNjb3ZlcnktZHVyaW5nLWFzdGVyb2lkLWRpbmtpbmVzaC1mbHlieS_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T02:32:58Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "The Times of Israel",
+            "title": "Polls show lower support for Israel among young Americans amid war against Hamas - The Times of Israel",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LnRpbWVzb2Zpc3JhZWwuY29tL3BvbGxzLXNob3ctbG93ZXItc3VwcG9ydC1mb3ItaXNyYWVsLWFtb25nLXlvdW5nLWFtZXJpY2Fucy1hbWlkLXdhci1hZ2FpbnN0LWhhbWFzL9IBc2h0dHBzOi8vd3d3LnRpbWVzb2Zpc3JhZWwuY29tL3BvbGxzLXNob3ctbG93ZXItc3VwcG9ydC1mb3ItaXNyYWVsLWFtb25nLXlvdW5nLWFtZXJpY2Fucy1hbWlkLXdhci1hZ2FpbnN0LWhhbWFzL2FtcC8?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T02:11:42Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "E! NEWS",
+            "title": "Vanessa Marcil Pays Tribute to Ex-Fiancé Tyler Christopher After Death - E! NEWS",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5lb25saW5lLmNvbS9uZXdzLzEzODkyMTMvdmFuZXNzYS1tYXJjaWwtcGF5cy10cmlidXRlLXRvLWV4LWZpYW5jZS10eWxlci1jaHJpc3RvcGhlci1hZnRlci1nZW5lcmFsLWhvc3BpdGFsLXN0YXJzLWRlYXRo0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T02:08:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Entertainment Tonight",
+            "title": "'The Golden Bachelor: The Women Tell All' Preview: Gerry Cries Apologizing to His Second Runner-Up - Entertainment Tonight",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMid2h0dHBzOi8vd3d3LmV0b25saW5lLmNvbS90aGUtZ29sZGVuLWJhY2hlbG9yLXRoZS13b21lbi10ZWxsLWFsbC1wcmV2aWV3LWdlcnJ5LWNyaWVzLWFwb2xvZ2l6aW5nLXRvLWhpcy1zZWNvbmQtcnVubmVyLXVw0gF7aHR0cHM6Ly93d3cuZXRvbmxpbmUuY29tL3RoZS1nb2xkZW4tYmFjaGVsb3ItdGhlLXdvbWVuLXRlbGwtYWxsLXByZXZpZXctZ2VycnktY3JpZXMtYXBvbG9naXppbmctdG8taGlzLXNlY29uZC1ydW5uZXItdXA_YW1w?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T01:29:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Entertainment Weekly News",
+            "title": "Lisa Marie Presley asked Sofia Coppola to change Elvis' portrayal in 'Priscilla' - Entertainment Weekly News",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vZXcuY29tL21vdmllcy9saXNhLW1hcmllLXByZXNsZXktYXNrZWQtc29maWEtY29wcG9sYS1jaGFuZ2UtcHJpc2NpbGxhLXNjcmlwdC1lbHZpcy_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T00:53:45Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "BBC.com",
+            "title": "Trump's sons a study in contrasts on witness stand in New York fraud case - BBC.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiMWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC11cy1jYW5hZGEtNjczMDQ1NDfSATVodHRwczovL3d3dy5iYmMuY29tL25ld3Mvd29ybGQtdXMtY2FuYWRhLTY3MzA0NTQ3LmFtcA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T00:47:00Z",
+            "content": null
+        },
+    {
+    "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "WISN 12 News",
+            "title": "Daylight saving time ends early Sunday morning - WISN 12 News",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CCAiC1BGVm1VNFM3VGFVmAEB?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-11-03T00:35:59Z",
+            "content": null
+        }
+    ]
+}
