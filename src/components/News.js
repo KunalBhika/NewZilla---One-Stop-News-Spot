@@ -15,7 +15,7 @@ export class News extends Component {
     }
 
     async componentDidMount() {
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=1&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=1&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({articles : parsedData.articles, totalResults : parsedData.totalResults, isLoading : false});
@@ -25,7 +25,7 @@ export class News extends Component {
         const nextPage = this.state.page + 1;
         const nextGroup = this.state.totalShown + this.props.pageSize;
         this.setState({page : nextPage, totalShown : nextGroup, isLoading : true});
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${nextPage}&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${nextPage}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({articles : parsedData.articles, isLoading : false});
@@ -35,7 +35,7 @@ export class News extends Component {
         const prevPage = this.state.page - 1;
         const nextGroup = this.state.totalShown - this.props.pageSize;
         this.setState({page : prevPage, totalShown : nextGroup, isLoading : true});
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${prevPage}&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${prevPage}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({articles : parsedData.articles, isLoading : false});
@@ -47,9 +47,9 @@ export class News extends Component {
         return (
             <>
                 <div className="container my-3">
-                    <h2 className="mainTitle">NewsZilla - One Stop for you daily news dose</h2>         
+                    <h2 className="mainTitle text-center" style={{margin : '40px 0px'}}>NewsZilla - One Stop for you daily news dose</h2>         
 
-                    {/* if page loading then show spinner else show actual data */}
+                    {/* if page is loading then show spinner else show actual data */}
                     {this.state.isLoading ? <Spinner/> : 
                         <div className="row">
                         {    
