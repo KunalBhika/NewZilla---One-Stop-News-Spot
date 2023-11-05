@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NewsItem from './NewsItem'
-import data from './sampleResult.json';
+import Spinner from './Spinner';
 
 export class News extends Component {
     constructor() {
@@ -8,36 +8,37 @@ export class News extends Component {
         this.state = {
             articles : [],
             page : 1,
-            totalShown : 20,
-            totalResults : 0
+            totalShown : 5,
+            totalResults : 0,
+            isLoading : true
         }
     }
 
     async componentDidMount() {
-        let url = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=1&pageSize=20';
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=1&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
-        this.setState({articles : parsedData.articles, totalResults : parsedData.totalResults});
+        this.setState({articles : parsedData.articles, totalResults : parsedData.totalResults, isLoading : false});
     }
 
     onNextBtn = async () => {
         const nextPage = this.state.page + 1;
-        const nextGroup = this.state.totalShown + 20;
-        this.setState({page : nextPage, totalShown : nextGroup});
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${nextPage}&pageSize=20`;
+        const nextGroup = this.state.totalShown + this.props.pageSize;
+        this.setState({page : nextPage, totalShown : nextGroup, isLoading : true});
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${nextPage}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
-        this.setState({articles : parsedData.articles});
+        this.setState({articles : parsedData.articles, isLoading : false});
     }
 
     onPrevBtn = async () => {
         const prevPage = this.state.page - 1;
-        const nextGroup = this.state.totalShown - 20;
-        this.setState({page : prevPage, totalShown : nextGroup});
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${prevPage}`;
+        const nextGroup = this.state.totalShown - this.props.pageSize;
+        this.setState({page : prevPage, totalShown : nextGroup, isLoading : true});
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${prevPage}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
-        this.setState({articles : parsedData.articles});
+        this.setState({articles : parsedData.articles, isLoading : false});
     }
 
     render() {
@@ -46,18 +47,21 @@ export class News extends Component {
         return (
             <>
                 <div className="container my-3">
-                    <h2 className="mainTitle">NewsZilla</h2>
-                    <div className="row">
-                        
-                        {
+                    <h2 className="mainTitle">NewsZilla - One Stop for you daily news dose</h2>         
+
+                    {/* if page loading then show spinner else show actual data */}
+                    {this.state.isLoading ? <Spinner/> : 
+                        <div className="row">
+                        {    
                             this.state.articles.map((element) => (
                                 <div className="col-md-4" key={element.url}>
                                     <NewsItem title={element.title} desc={element.description?element.description.slice(0,100):" "} imgUrl={element.urlToImage?element.urlToImage:defaultImage} url={element.url}/>
                                 </div>
                             ))
-                        }
-                        
-                    </div>
+                        } 
+                        </div>
+                    }
+                    
                 </div>
                 <div className="container my-5">
                     <button id="prev-btn" className="btn btn-success mx-2" onClick={this.onPrevBtn} disabled={this.state.page <= 1}>Prev</button>
