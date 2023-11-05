@@ -7,21 +7,24 @@ export class News extends Component {
         super();
         this.state = {
             articles : [],
-            page : 1
+            page : 1,
+            totalShown : 20,
+            totalResults : 0
         }
     }
 
     async componentDidMount() {
-        let url = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=1';
+        let url = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=1&pageSize=20';
         let data = await fetch(url);
         let parsedData = await data.json();
-        this.setState({articles : parsedData.articles});
+        this.setState({articles : parsedData.articles, totalResults : parsedData.totalResults});
     }
 
     onNextBtn = async () => {
         const nextPage = this.state.page + 1;
-        this.setState({page : nextPage});
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${nextPage}`;
+        const nextGroup = this.state.totalShown + 20;
+        this.setState({page : nextPage, totalShown : nextGroup});
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${nextPage}&pageSize=20`;
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({articles : parsedData.articles});
@@ -29,7 +32,8 @@ export class News extends Component {
 
     onPrevBtn = async () => {
         const prevPage = this.state.page - 1;
-        this.setState({page : prevPage});
+        const nextGroup = this.state.totalShown - 20;
+        this.setState({page : prevPage, totalShown : nextGroup});
         let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${prevPage}`;
         let data = await fetch(url);
         let parsedData = await data.json();
@@ -57,7 +61,7 @@ export class News extends Component {
                 </div>
                 <div className="container my-5">
                     <button id="prev-btn" className="btn btn-success mx-2" onClick={this.onPrevBtn} disabled={this.state.page <= 1}>Prev</button>
-                    <button id="next-btn" className="btn btn-success mx-2" onClick={this.onNextBtn}>Next</button>
+                    <button id="next-btn" className="btn btn-success mx-2" onClick={this.onNextBtn} disabled={this.state.totalShown >= this.state.totalResults}>Next</button>
                 </div>
             </>
         )
