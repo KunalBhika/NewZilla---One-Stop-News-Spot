@@ -55,7 +55,8 @@ export class News extends Component {
                         {    
                             this.state.articles.map((element) => (
                                 <div className="col-md-4" key={element.url}>
-                                    <NewsItem title={element.title} desc={element.description?element.description.slice(0,100):" "} imgUrl={element.urlToImage?element.urlToImage:defaultImage} url={element.url}/>
+                                    <NewsItem title={element.title} desc={element.description?element.description.slice(0,100):" "} imgUrl={element.urlToImage?element.urlToImage:defaultImage} 
+                                    url={element.url} date={element.publishedAt.slice(0,10)} author={element.author}/>
                                 </div>
                             ))
                         } 
@@ -64,8 +65,8 @@ export class News extends Component {
                     
                 </div>
                 <div className="container my-5">
-                    <button id="prev-btn" className="btn btn-success mx-2" onClick={this.onPrevBtn} disabled={this.state.page <= 1}>Prev</button>
-                    <button id="next-btn" className="btn btn-success mx-2" onClick={this.onNextBtn} disabled={this.state.totalShown >= this.state.totalResults}>Next</button>
+                    <button id="prev-btn" className="btn btn-dark mx-2" onClick={this.onPrevBtn} disabled={this.state.page <= 1}>Prev</button>
+                    <button id="next-btn" className="btn btn-dark mx-2" onClick={this.onNextBtn} disabled={this.state.totalShown >= this.state.totalResults}>Next</button>
                 </div>
             </>
         )
