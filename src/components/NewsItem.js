@@ -13,7 +13,7 @@ export class NewItem extends Component {
           <br />
           <span className="font-weight-bold">Author : <span className="font-weight-normal">{author?author:"Unknown"}</span> </span>
           <p className="card-text my-3">{desc}..</p>
-          <a href={url} className="btn btn-sm btn-primary" target="_blank">Read more..</a>
+          <a href={url} className="btn btn-sm btn-primary">Read more..</a>
         </div>
       </div>
     )
