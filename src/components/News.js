@@ -17,11 +17,15 @@ export class News extends Component {
     }
 
     async updateNews() {
-        this.setState({ totalShown: this.state.totalShown + this.props.pageSize, isLoading: true });
+        this.props.setProgress(30);
+        // this.setState({ totalShown: this.state.totalShown + this.props.pageSize, isLoading: true });  // uncomment for next and prev button and comment below line
+        this.setState({ totalShown: this.state.totalShown + this.props.pageSize});
         const url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=9180273d9b564bb3b4b437b702785a4a&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
+        this.props.setProgress(50);
         let parsedData = await data.json();
         this.setState({ articles: this.state.articles.concat(parsedData.articles), totalResults: parsedData.totalResults, isLoading: false });
+        this.props.setProgress(100);
     }
 
     async componentDidMount() {
@@ -35,7 +39,7 @@ export class News extends Component {
         }, 90)
     }
 
-    // onPrevBtn = async () => {
+    // onPrevBtn = async () => {     // uncomment for next and prev button functionality
     //     this.setState({ page: this.state.page - 1 });
     //     setTimeout(() => {     // Added this small delay to give some time to this.state.page to update.
     //         this.updateNews();
@@ -50,7 +54,7 @@ export class News extends Component {
                     <h2 className="mainTitle text-center" style={{ margin: '40px 0px' }}>NewsZilla - top {this.props.category} headlines</h2>
 
                     {/* if page is loading then show spinner else show actual data */}
-
+                    {this.state.isLoading ? <Spinner/> :
                     <InfiniteScroll
                         style={{overflow : 'none'}}
                         dataLength={this.state.articles.length} //This is important field to render the next data
@@ -73,11 +77,11 @@ export class News extends Component {
                                 ))
                             }
                         </div>
-                    </InfiniteScroll>
+                    </InfiniteScroll>}
 
 
                 </div>
-                {/* <div className="container my-5">
+                {/* <div className="container my-5"> uncomment for next and prev button functionality and comment above infinite scroll component
                     <button id="prev-btn" className="btn btn-dark mx-2" onClick={this.onPrevBtn} disabled={this.state.page <= 1}>Prev</button>
                     <button id="next-btn" className="btn btn-dark mx-2" onClick={this.onNextBtn} disabled={this.state.totalShown >= this.state.totalResults}>Next</button>
                 </div> */}
