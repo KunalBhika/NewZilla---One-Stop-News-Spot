@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class NewItem extends Component {
-  render() {
-    let {title, desc, imgUrl, url, date, author} = this.props;
+const NewItem = (props) => {
+    let {title, desc, imgUrl, url, date, author} = props;
     let dateToShow = new Date(date).toGMTString();
     return (
       <div className="card my-4">
@@ -17,7 +16,6 @@ export class NewItem extends Component {
         </div>
       </div>
     )
-  } 
 }
 
 export default NewItem;
